@@ -12,20 +12,30 @@
         De manera general git es un sistema de control de versiones (VCS).
         Otro punto inportante es que a grandes rasgos se divide en 3 
         estados:
-        1. Working Directory
-           Lugar donde se esta trabajando cpn los archivos  
-        2. Staging Area
+        <p>1. Working Directory
+           Lugar donde se esta trabajando cpn los archivos</p>  
+        <p>2. Staging Area
            Lugar donde se preparan los archivos para el guardado 
-           (git add)
-        3. Repository
+           (git add)</p>
+        <p>3. Repository
            En esta parte es cuando ya se va sibir como tal los archivos o proyecto a un repositorio
-           con todos los cambios realizados (git commit) 
+           con todos los cambios realizados (git commit) </p>
     </article>
-    <img src="img/states_git.png" alt="">
+    <img src="states_git.png" alt="" height="200px" width="300px">
     <h3>Comandos GIT</h3>
     <p>'git init'   => inicializar un proyecto con git</p>
     <p>'git status' => sirve para saber los archivos con los que estamos trabajando</p>
-    <p>'git add <name_file>' => para agregar un archivo a nuestro stating area</p> 
+    <p>'git add nombre_archivo' => para agregar un archivo a nuestro stating area</p> 
+    <p>'git log' => para ver los commits que hayamos echo</p>
+    <p>'git commit' => para crear un primer punto de partida de nuestro proyecto</p>
+    <p>'git checkout -- nombre_archivo' => para revertir los cambios hechos anteriormente</p>
+    <p>'git diff' => para ver las diferencias hechas en los archivos</p>
+    <h2>
+        Para la parte de commit nos pide ciertas configuraciones
+        que se muestran a continuacion: 
+    </h2>
+    <p>E-mail y nombre de quien hace el cambio</p>
+    <img src="config_git.png" alt="">
 
 
 
